@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node  index.js",
-    "dev" : "nodemon index.js"
-
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +19,7 @@
   },
   "homepage": "https://github.com/GarikAyvazyan/github#readme",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "nodemon": "^3.1.10"
   }
 }
